@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(image/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:white;
+     font-family: cursive;;
+}
+.bordurstyl{
+    border: rgb(105, 103, 104);
+    border-style: groove;
+    border-width: 10px 10px 12px 12px;
+    text-align: center;
+    margin:6%;
+  
+}
