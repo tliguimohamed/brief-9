@@ -22,9 +22,9 @@ async function get(e){
       <h1>day:${day}</h1>
       <h1>country:${data.location.country}</h1>
       <h1>city:${data.location.name}</h1>
-      <h1>${data.current.temp_c}</h1>
-      <h1>${data.current.temp_f}</h1>
-      <h1>${data.location.localtime}</h1>
+      <h1>${data.current.temp_c}°C</h1>
+      <h1>${data.current.temp_f}°F</h1>
+      <h1> ${data.location.localtime}</h1>
       <h1>${data.forecast.forecastday[0].hour[0].dewpoint_c} ~ ${data.forecast.forecastday[0].hour[23].dewpoint_c}</h1>
       <img src="https://${data.current.condition.icon}">
       </div>` 
